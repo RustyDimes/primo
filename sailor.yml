@@ -1,4 +1,3 @@
-# Sailor (https://mardix.github.io/sailor)
 ---
 name: 
 description:
@@ -12,7 +11,7 @@ apps:
       PRIVATE_SUPABASE_PRIVATE_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdxd2ZkdmlybXptYWVrZWp4ZGlyIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcwNzAwMTI3OSwiZXhwIjoyMDIyNTc3Mjc5fQ.mmO1K2E7BfXGjpgcQUEPWjkXIiN95Trn151B4FLyGSA
       PUBLIC_SUPABASE_PUBLIC_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdxd2ZkdmlybXptYWVrZWp4ZGlyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDcwMDEyNzksImV4cCI6MjAyMjU3NzI3OX0.4UyqMZycuKampfVphfQPWn85GJWtuhdvHXns4oHIDps
       PUBLIC_SUPABASE_URL: https://gqwfdvirmzmaekejxdir.supabase.co
-      
+
     process:
       web: 
         cmd: node app.js 2>&1 | cat
