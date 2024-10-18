@@ -19,6 +19,7 @@
     "@rollup/browser": "^3.28.0",
     "@supabase/auth-helpers-sveltekit": "^0.10.2",
     "@supabase/supabase-js": "^2.31.0",
+    "@tiptap/extension-highlight": "^2.8.0",
     "@tiptap/starter-kit": "^2.8.0",
     "axios": "^0.26.0",
     "estree-walker": "^3.0.3",
