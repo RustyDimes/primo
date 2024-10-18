@@ -36,6 +36,7 @@
     "nanoid": "^3.1.23",
     "promise-worker": "^2.0.1",
     "resolve.exports": "^2.0.2",
+    "svelte-dnd-action": "^0.9.51",
     "svelte-toggle": "^4.0.1",
     "timeago.js": "^4.0.2",
     "uuid": "^10.0.0"
