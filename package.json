@@ -26,6 +26,7 @@
     "@tiptap/extension-highlight": "^2.8.0",
     "@tiptap/extension-link": "^2.8.0",
     "@tiptap/starter-kit": "^2.8.0",
+    "autosize": "^6.0.1",
     "axios": "^0.26.0",
     "codemirror": "^6.0.1",
     "estree-walker": "^3.0.3",
