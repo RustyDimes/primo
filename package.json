@@ -13,6 +13,7 @@
     "format": "prettier --plugin-search-dir . --write ."
   },
   "dependencies": {
+    "@codemirror/lang-html": "^6.4.9",
     "@fontsource/fira-code": "^5.0.5",
     "@iconify/svelte": "^4.0.2",
     "@primocms/builder": "http://kit.thecode.llc/builder.tgz",
