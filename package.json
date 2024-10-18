@@ -29,7 +29,7 @@
     "@rollup/browser": "^3.28.0",
     "@supabase/auth-helpers-sveltekit": "^0.10.2",
     "@supabase/supabase-js": "^2.31.0",
-    "@sveltejs/adapter-vercel": "^5.4.5",
+    "@sveltejs/adapter-vercel": "^2.0.0",
     "@tiptap/core": "^2.0.0-beta.174",
     "@tiptap/extension-bubble-menu": "^2.0.0-beta.55",
     "@tiptap/extension-bullet-list": "^2.0.0-beta.26",
@@ -65,7 +65,7 @@
   "devDependencies": {
     "@playwright/test": "^1.33.0",
     "@sveltejs/adapter-auto": "2.1.1",
-    "@sveltejs/kit": "^1.22.4",
+    "@sveltejs/kit": "^1.30.4",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
     "autoprefixer": "^10.3.6",
