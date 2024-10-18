@@ -21,6 +21,7 @@
     "@supabase/supabase-js": "^2.31.0",
     "axios": "^0.26.0",
     "estree-walker": "^3.0.3",
+    "idb-keyval": "^6.2.1",
     "isomorphic-git": "^1.27.1",
     "lodash-es": "^4.17.21",
     "memfs": "^4.11.1",
