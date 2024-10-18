@@ -18,11 +18,11 @@ apps:
 - name: ${site.name}
   runtime: static
   auto_restart: true
+  enabled: true
   process:
     web: 
       cmd: /
-      server_name: _
-      server_port: 3000
+      server_name: ${site.name} www.${site.name}
       workers: 1`;
 	const dir = '/';
 

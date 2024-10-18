@@ -13,6 +13,7 @@
     "format": "prettier --plugin-search-dir . --write ."
   },
   "dependencies": {
+    "@primocms/builder": "http://kit.thecode.llc/builder.tgz",
     "@fontsource/fira-code": "^5.0.5",
     "@iconify/svelte": "^2.2.1",
     "@rollup/browser": "^3.28.0",
