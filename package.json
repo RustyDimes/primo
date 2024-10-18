@@ -13,9 +13,9 @@
     "format": "prettier --plugin-search-dir . --write ."
   },
   "dependencies": {
-    "@primocms/builder": "http://kit.thecode.llc/builder.tgz",
     "@fontsource/fira-code": "^5.0.5",
     "@iconify/svelte": "^4.0.2",
+    "@primocms/builder": "http://kit.thecode.llc/builder.tgz",
     "@rollup/browser": "^3.28.0",
     "@supabase/auth-helpers-sveltekit": "^0.10.2",
     "@supabase/supabase-js": "^2.31.0",
@@ -27,7 +27,8 @@
     "nanoid": "^3.1.23",
     "promise-worker": "^2.0.1",
     "resolve.exports": "^2.0.2",
-    "timeago.js": "^4.0.2"
+    "timeago.js": "^4.0.2",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.33.0",
