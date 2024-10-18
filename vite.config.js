@@ -22,10 +22,7 @@ const config = {
     }
   ],
   build: {
-    sourcemap: true,
-    rollupOptions: {
-      external: ['svelte-dnd-action', 'autosize']
-    }
+    sourcemap: true
   },
   test: {
     include: ['src/**/*.{test,spec}.{js,ts}']
