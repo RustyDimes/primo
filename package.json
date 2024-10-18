@@ -13,8 +13,6 @@
     "format": "prettier --plugin-search-dir . --write ."
   },
   "dependencies": {
-    "svelte": "^3.59.2",
-    "isomorphic-git": "^1.27.1",
     "@fontsource/fira-code": "^5.0.5",
     "@iconify/svelte": "^2.2.1",
     "@primocms/builder": "https://kit.thecode.llc/builder.tgz",
@@ -23,12 +21,15 @@
     "@supabase/supabase-js": "^2.31.0",
     "axios": "^0.26.0",
     "estree-walker": "^3.0.3",
+    "isomorphic-git": "^1.27.1",
     "lodash-es": "^4.17.21",
     "memfs": "^4.7.7",
     "nanoid": "^3.1.23",
     "promise-worker": "^2.0.1",
     "resolve.exports": "^2.0.2",
-    "timeago.js": "^4.0.2"
+    "svelte": "^3.59.2",
+    "timeago.js": "^4.0.2",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.33.0",
