@@ -25,6 +25,7 @@
     "@tiptap/extension-floating-menu": "^2.8.0",
     "@tiptap/extension-highlight": "^2.8.0",
     "@tiptap/extension-link": "^2.8.0",
+    "@tiptap/extension-text-style": "^2.8.0",
     "@tiptap/starter-kit": "^2.8.0",
     "autosize": "^6.0.1",
     "axios": "^0.26.0",
