@@ -24,7 +24,7 @@ const config = {
   build: {
     sourcemap: true,
     rollupOptions: {
-      external: ['svelte-dnd-action']
+      external: ['svelte-dnd-action', 'autosize']
     }
   },
   test: {
