@@ -19,12 +19,26 @@ apps:
   runtime: static
   auto_restart: true
   enabled: true
+  nginx:
+    include_file: 'nginx.conf'
   process:
     web: 
       cmd: /
       server_name: ${site.name} www.${site.name}
       workers: 1`;
 	const dir = '/';
+
+	const nginxConf = `
+location / {
+	# For all files
+	add_header Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0";
+	add_header Pragma "no-cache";
+	add_header Expires "0";
+	
+	# Optionally force revalidation of the file by the browser
+	etag off;
+}`;
+
 
 	await fs.rmdir(dir, { recursive: true });
 	// Initialize the Git repository
@@ -38,7 +52,9 @@ apps:
 		await git.add({ fs, force: true, dir, gitdir: dir, filepath: file.path });
 	}
 	await fs.writeFile('/pipe.yml', sailorConf);
+	await fs.writeFile('/nginx.conf', nginxConf);
 	await git.add({ fs, force: true, dir, gitdir: dir, filepath: "pipe.yml" });
+	await git.add({ fs, force: true, dir, gitdir: dir, filepath: "nginx.conf" });
 
 	await git.commit({ fs, dir, gitdir: dir, message: 'Initial commit', author: { name: 'Your Name', email: 'your.email@example.com' } });
 
