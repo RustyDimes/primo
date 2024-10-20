@@ -29,15 +29,14 @@ apps:
 	const dir = '/';
 
 	const nginxConf = `
-location / {
-	# For all files
-	add_header Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0";
-	add_header Pragma "no-cache";
-	add_header Expires "0";
-	
-	# Optionally force revalidation of the file by the browser
-	etag off;
-}`;
+# For all files
+add_header Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0";
+add_header Pragma "no-cache";
+add_header Expires "0";
+
+# Optionally force revalidation of the file by the browser
+etag off;
+`;
 
 
 	await fs.rmdir(dir, { recursive: true });
